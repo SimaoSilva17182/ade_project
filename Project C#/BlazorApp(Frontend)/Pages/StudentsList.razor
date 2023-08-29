@@ -1,0 +1,55 @@
+﻿@page "/studentslist"
+@inject HttpClient Http
+@using System.Net.Http.Json;
+@using MongoDB.Bson;
+
+<h3>StudentsList</h3>
+
+@if (studentData != null)
+{
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Gender</td>
+                <td>Age</td>
+                <td>Is graduated</td>
+                <td>Courses</td>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var student in studentData)
+        {
+            <tr>
+                <td>@student.Name</td>
+                <td>@student.Gender</td>
+                <td>@student.Age</td>
+                <td>@student.Graduated</td>
+                <td>@string.Join(", ", student.Courses)</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Loading student data...</p>
+}
+@code {
+    private List<Student>? studentData;
+
+    protected override async Task OnInitializedAsync() 
+    {
+        studentData = await Http.GetFromJsonAsync<List<Student>>("/api/students");
+    }
+
+    public class Student
+    {
+        public ObjectId _id { get; set; }
+        public string? Name { get; set; }
+        public string? Gender { get; set; }
+        public int Age { get; set; }
+        public bool Graduated { get; set; }
+        public string[]? Courses { get; set; }
+    }
+}

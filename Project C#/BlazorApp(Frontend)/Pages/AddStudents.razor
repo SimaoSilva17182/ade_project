@@ -1,0 +1,105 @@
+﻿@page "/addstudents"
+@inject HttpClient Http
+@using MongoDB.Bson;
+<h3>AddStudents</h3>
+
+<div class="row">
+    <div class="col-lg-6">
+        <input class="form-control mb-3" @bind-value="newStudent.Name" placeholder="Enter name" />
+        <input class="form-control mb-3" @bind-value="newStudent.Gender" placeholder="Enter gender" />
+        <input class="form-control mb-3" @bind-value="newStudent.Age" placeholder="Enter age" />
+        <input class="form-control mb-3" @bind-value="newStudent.Graduated" placeholder="Enter true or farse" />
+        <input class="form-control mb-3" @bind-value="newStudent.Courses" placeholder="Enter your courses" />
+        <button class="btn btn-primary btn-block" @onclick="SubmitStudent">Subm</button>
+    </div>
+    <div class="col-lg-6">
+
+
+
+@if(students == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Gender</td>
+                        <td>Age</td>
+                        <td>Is graduated</td>
+                        <td>Courses</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var student in students)
+                    {
+                        <tr>
+                            <td>@student.Name</td>
+                            <td>@student.Gender</td>
+                            <td>@student.Age</td>
+                            <td>@student.Graduated</td>
+                            <td>@string.Join(", ", student.Courses)</td>
+                            <td>
+                                <button class="btn btn-sm btn-primary" @onclick="@(()=>GetStudent(@student.Id))">Edit</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-sm btn-primary" @onclick="@(()=>DeleteStudent(@student.Id))">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+}
+    </div>
+</div>
+@code {
+    private List<Student>? students;
+    private bool edit = false;
+    private Student newStudent = new Student();
+
+    protected override async Task OnInitializedAsync()
+    {
+        students = await Http.GetFromJsonAsync<List<Student>>("/api/students");
+    }
+
+    private async Task DeleteStudent(string id)
+    {
+        await Http.DeleteAsync("/api/students/" + id);
+        await OnInitializedAsync();
+    }
+
+    private async Task GetStudent(string id)
+    {
+        newStudent = await Http.GetFromJsonAsync<Student>("/api/students/"+id);
+        edit = true;
+    }
+
+    private async Task SubmitStudent()
+    {
+        if(edit == false)
+        {
+            await Http.PostAsJsonAsync<Student>("/api/students", newStudent);
+            await OnInitializedAsync();
+            newStudent = new Student();
+        } else
+        {
+            await Http.PutAsJsonAsync<Student>("/api/students/" + newStudent.Id, newStudent);
+            newStudent = new Student();
+            edit = false;
+            await OnInitializedAsync();
+        }
+    }
+
+    public class Student
+    {
+        public ObjectId Id { get; set; }
+        public string? Name { get; set; }
+        public string? Gender { get; set; }
+        public int Age { get; set; }
+        public bool Graduated { get; set; }
+        public string[]? Courses { get; set; }
+    }
+
+}

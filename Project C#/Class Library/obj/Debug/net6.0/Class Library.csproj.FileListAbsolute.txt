@@ -1,0 +1,45 @@
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\appsettings.json
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Class Library.exe
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Class Library.deps.json
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Class Library.runtimeconfig.json
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Class Library.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Class Library.pdb
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Snappier.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.AssemblyInfoInputs.cache
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.AssemblyInfo.cs
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\staticwebassets\msbuild.Class Library.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\staticwebassets\msbuild.build.Class Library.props
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Class Library.props
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Class Library.props
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\scopedcss\bundle\Class Library.styles.css
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.csproj.CopyComplete
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\refint\Class Library.dll
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.pdb
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\Class Library.genruntimeconfig.cache
+C:\Users\Dell\OneDrive\Ambiente de Trabalho\Erasmus\Project C#\Class Library\obj\Debug\net6.0\ref\Class Library.dll
